@@ -52,6 +52,7 @@
             <default>3</default>
             <min>1</min>
             <max>10</max>
+            <enabled>cleanOldVersions</enabled>
         </entry>
 
         <entry name="githubToken" type="String">
@@ -79,7 +80,7 @@
         <entry name="icon" type="String">
             <label>Widget icon</label>
             <tooltip>Icon to display in the panel</tooltip>
-            <default>application-x-ms-dos-executable</default>
+            <default>folder-games-symbolic</default>
         </entry>
     </group>
 </kcfg>

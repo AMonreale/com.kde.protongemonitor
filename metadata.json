@@ -8,7 +8,7 @@
         ],
         "Category": "System Information",
         "Description": "Monitors and downloads Proton GE releases automatically",
-        "Icon": "application-x-ms-dos-executable",
+        "Icon": "folder-games-symbolic",
         "Id": "com.kde.protongemonitor",
         "Name": "Proton GE Monitor",
         "Version": "1.0"

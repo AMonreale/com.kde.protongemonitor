@@ -16,7 +16,7 @@ PlasmoidItem {
     property bool isWorking: false
     property real progress: 0.0
 
-    preferredRepresentation: compactRepresentation
+    preferredRepresentation: fullRepresentation
 
     // Preferred sizes for popup
     Layout.preferredWidth: Kirigami.Units.gridUnit * 20

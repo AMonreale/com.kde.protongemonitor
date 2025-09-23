@@ -33,15 +33,6 @@ If you prefer to install the widget from the source code:
     ```bash
     git clone https://github.com/AMonreale/com.kde.protongemonitor.git $HOME/.local/share/plasma/plasmoids/com.kde.protongemonitor
     ```
-2.  Navigate into the project directory and run the Plasma installation command:
-    ```bash
-    cd com.kde.protongemonitor
-    plasmapkg2 -i .
-    ```
-3.  To apply the changes, restart `plasmashell`:
-    ```bash
-    killall plasmashell && kstart5 plasmashell &
-    ```
 
 ## Configuration
 

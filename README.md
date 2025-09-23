@@ -19,7 +19,7 @@ This widget automatically checks for new versions, downloads them, and can also 
 
 ## Installation
 
-### Method 1: From the KDE Store (Recommended)
+### Method 1: From the KDE Store (Recommended) [NOT YET AVAILABLE]
 
 The easiest way to install the widget is to search for it directly from your Plasma desktop:
 1.  Right-click on your desktop or panel and select "Add Widgets...".
@@ -31,7 +31,7 @@ The easiest way to install the widget is to search for it directly from your Pla
 If you prefer to install the widget from the source code:
 1.  Clone this repository:
     ```bash
-    git clone https://github.com/your-username/com.kde.protongemonitor.git
+    git clone https://github.com/your-username/com.kde.protongemonitor.git $HOME/.local/share/plasma/plasmoids/
     ```
 2.  Navigate into the project directory and run the Plasma installation command:
     ```bash

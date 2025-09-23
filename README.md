@@ -31,7 +31,7 @@ The easiest way to install the widget is to search for it directly from your Pla
 If you prefer to install the widget from the source code:
 1.  Clone this repository:
     ```bash
-    git clone https://github.com/your-username/com.kde.protongemonitor.git $HOME/.local/share/plasma/plasmoids/
+    git clone https://github.com/AMonreale/com.kde.protongemonitor.git $HOME/.local/share/plasma/plasmoids/
     ```
 2.  Navigate into the project directory and run the Plasma installation command:
     ```bash

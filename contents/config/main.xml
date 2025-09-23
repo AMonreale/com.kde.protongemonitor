@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+    <kcfgfile name=""/>
+
+    <group name="General">
+        <entry name="checkInterval" type="Int">
+            <label>Check interval in minutes</label>
+            <tooltip>How often to check for new Proton GE releases</tooltip>
+            <default>120</default>
+            <min>30</min>
+            <max>1440</max>
+        </entry>
+
+        <entry name="autoDownload" type="Bool">
+            <label>Automatically download updates</label>
+            <tooltip>Download new releases automatically when detected</tooltip>
+            <default>false</default>
+        </entry>
+
+        <entry name="customSteamPath" type="String">
+            <label>Custom Steam installation path</label>
+            <tooltip>Leave empty for automatic detection</tooltip>
+            <default></default>
+        </entry>
+
+        <entry name="showNotifications" type="Bool">
+            <label>Show desktop notifications</label>
+            <tooltip>Display notifications for downloads and updates</tooltip>
+            <default>true</default>
+        </entry>
+
+        <entry name="debugMode" type="Bool">
+            <label>Enable debug logging</label>
+            <tooltip>Write detailed debug information to log files</tooltip>
+            <default>false</default>
+        </entry>
+    </group>
+
+    <group name="Advanced">
+        <entry name="cleanOldVersions" type="Bool">
+            <label>Clean old versions</label>
+            <tooltip>Automatically remove old Proton GE versions</tooltip>
+            <default>false</default>
+        </entry>
+
+        <entry name="maxVersionsToKeep" type="Int">
+            <label>Maximum versions to keep</label>
+            <tooltip>Number of old versions to preserve</tooltip>
+            <default>3</default>
+            <min>1</min>
+            <max>10</max>
+        </entry>
+
+        <entry name="githubToken" type="String">
+            <label>GitHub Personal Access Token</label>
+            <tooltip>Optional token to increase API rate limits</tooltip>
+            <default></default>
+        </entry>
+
+        <entry name="downloadTimeout" type="Int">
+            <label>Download timeout in seconds</label>
+            <tooltip>Maximum time for download operations</tooltip>
+            <default>300</default>
+            <min>30</min>
+            <max>600</max>
+        </entry>
+
+        <entry name="useSystemProxy" type="Bool">
+            <label>Use system proxy settings</label>
+            <tooltip>Use system-wide proxy configuration for downloads</tooltip>
+            <default>false</default>
+        </entry>
+    </group>
+
+    <group name="Appearance">
+        <entry name="icon" type="String">
+            <label>Widget icon</label>
+            <tooltip>Icon to display in the panel</tooltip>
+            <default>application-x-ms-dos-executable</default>
+        </entry>
+    </group>
+</kcfg>

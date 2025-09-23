@@ -1,0 +1,18 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "sandro.x8664@proton.me",
+                "Name": "Alessandro Monreale"
+            }
+        ],
+        "Category": "System Information",
+        "Description": "Monitors and downloads Proton GE releases automatically",
+        "Icon": "application-x-ms-dos-executable",
+        "Id": "com.kde.protongemonitor",
+        "Name": "Proton GE Monitor",
+        "Version": "1.0"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "KPackageStructure": "Plasma/Applet"
+}
